@@ -73,3 +73,10 @@ header {
   height: 100px;
   background: red;
 }
+
+/* line 3, ../scss/_picture.scss */
+.picture-session picture img {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
