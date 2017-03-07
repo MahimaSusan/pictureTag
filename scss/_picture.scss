@@ -7,11 +7,13 @@
   }
 }
 .gallery-section {
+	padding-left: 6%;
+	padding-top: 10px;
   picture {
     img {
       display: inline-block;
-      width: 49%;
-      height: 200px;
+      width: 23%;
+      // height: 200px;
     }
     &:first-child {
       img {
@@ -27,7 +29,7 @@ a {
 }
 a.img-link {
   display: inline-block;
-  width: 49%;
+  width: 23%;
 }
 .head {
   font-size: 15px;
@@ -35,3 +37,19 @@ a.img-link {
 .sub-picture-section {
   display: block;
 }
+// @media only screen and (min-width: 500px) {
+// 	.gallery-section {
+//   picture {
+//     img {
+//       display: inline-block;
+//       width: 25%;
+//       height: 200px;
+//     }
+//     &:first-child {
+//       img {
+//         width: 100%;
+//       }
+//     }
+//   }
+// }
+// }
