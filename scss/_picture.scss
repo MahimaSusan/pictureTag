@@ -10,8 +10,13 @@
   picture {
     img {
       display: inline-block;
-      width: 200px;
+      width: 49%;
       height: 200px;
+    }
+    &:first-child {
+      img {
+        width: 100%;
+      }
     }
   }
 }
@@ -22,6 +27,7 @@ a {
 }
 a.img-link {
   display: inline-block;
+  width: 49%;
 }
 .head {
   font-size: 15px;
