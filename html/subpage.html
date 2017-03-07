@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>picturezoom</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="../images/picture_tag.png" />
+  <link rel="stylesheet" type="text/css" href="../stylesheets/screen.css">
+</head>
+
+<body>
+  <header class="sub-header"></header>
+  <section class="sub-picture-section">
+<p class="head">Differnt images for different screenwidth</p>
+<!-- Image width become differnet-->
+    <picture>
+      <img src="../images/gallery-img-1.jpg" srcset="../images/gallery-img-1.jpg 400w, ../images/gallery-img-2.jpg 600w, ../images/gallery-img-3.jpg 800w">
+    </picture>
+    <!-- width will be full below 767px and width will be half abve 767px-->
+    <picture>
+    	<img src="../images/kitten-large.png" sizes="(max-width: 767px) 100vw, 50vw" srcset="../images/kitten-large.png">
+<!-- <img src="images/space-needle.jpg" sizes="(max-width: 40em) 100vw, 50vw"
+srcset="images/space-needle.jpg 0.4x, images/space-needle-2x.jpg 0.8x,
+images/space-needle-hd.jpg 1.2x"> -->
+    </picture>
+  </section>
+  <footer></footer>
+</body>
+
+</html>
