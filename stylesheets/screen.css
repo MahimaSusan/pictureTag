@@ -80,3 +80,10 @@ header {
   display: block;
   margin: 0 auto;
 }
+
+/* line 10, ../scss/_picture.scss */
+.gallery-section picture img {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}

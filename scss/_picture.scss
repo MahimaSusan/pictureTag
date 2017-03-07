@@ -5,3 +5,12 @@
     margin: 0 auto;
   }
 }
+.gallery-section {
+	picture {
+		img {
+			display: inline-block;
+			width: 200px;
+			height: 200px;
+		}
+	}
+}

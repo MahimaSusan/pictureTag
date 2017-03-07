@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>picturezoom</title>
+</head>
+<body>
+<header></header>
+  <section class="picture-session">
+    <!--   <picture>
+    <source media="(min-width: 650px)" srcset="images/kitten-large.png">
+    <source media="(min-width: 465px)" srcset="images/kitten-medium.png">
+    <img src="images/kitten-small.png" alt="Kitten" style="width:auto;">
+  </picture> -->
+    <picture>
+      <!--   <source 
+    media="(min-width: 650px)" 
+    srcset="images/kitten-large.png,
+            images/kitten-medium.png 1.5x,  
+            images/kitten-small.png 2x"> -->
+      <source media="(max-width: 320px)" srcset="images/kitten-large.png,
+            images/kitten-large.png  400w,  
+            images/kitten-large.png 600w">
+      <source media="(max-width: 767px)" srcset="images/kitten-medium.png,
+            images/kitten-medium.png 1.5x
+            images/kitten-medium.png 2x">
+      <img src="images/kitten-small.png" srcset="images/kitten-small.png 1.5x,
+            images/kitten-small.png 2x" alt="a cute kitten">
+    </picture>
+    <picture>
+<source media="(max-width: 700px)" sizes="(max-width: 500px) 50vw, 10vw" srcset="images/kitten-large.png 138w, images/kitten-large.png 138w">
+<source media="(max-width: 1400px)" sizes="(max-width: 1000px) 100vw, 50vw" srcset="images/kitten-small.png 416w, images/kitten-small.png 416w">
+<img src="images/kitten-medium.png" alt="Human">
+</picture>
+    </section>
+    <footer></footer>
+</body>
+</html>
