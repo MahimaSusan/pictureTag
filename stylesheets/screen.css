@@ -132,9 +132,10 @@ a.img-link {
 /* line 34, ../scss/_picture.scss */
 .head {
   font-size: 15px;
+  padding: 15px 0;
 }
 
-/* line 37, ../scss/_picture.scss */
+/* line 38, ../scss/_picture.scss */
 .sub-picture-section {
   display: block;
 }
