@@ -37,4 +37,9 @@ a.img-link {
 }
 .sub-picture-section {
   display: block;
+  .vw-specification {
+  	img {
+  		display: block;
+  	}
+  }
 }

@@ -139,3 +139,7 @@ a.img-link {
 .sub-picture-section {
   display: block;
 }
+/* line 41, ../scss/_picture.scss */
+.sub-picture-section .vw-specification img {
+  display: block;
+}
